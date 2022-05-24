@@ -25,7 +25,7 @@ class App extends React.Component {
     console.log("render bestShows: ", this.state.bestShows)
     return (
       <div>
-        azure-mern-demo
+        azure-mern-demo Below is the list of movies along with their ratings
         <ul>
           {
             Object.keys(this.state.bestShows).map((cur, idx) => (
